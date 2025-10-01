@@ -11,11 +11,9 @@ namespace mainMon
         static void Main(string[] args)
         {
             Console.SetWindowSize(90, 40);
-            main mainlogo = new main();
-
+            Casino mainlogo = new Casino();
             
-            
-            
+                
         }
     }
 }

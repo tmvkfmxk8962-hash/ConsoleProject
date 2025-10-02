@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blackject.cs" />
+    <Compile Include="Card.cs" />
     <Compile Include="Casino.cs" />
     <Compile Include="mainlogo.cs" />
     <Compile Include="Money.cs" />

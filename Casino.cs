@@ -8,11 +8,11 @@ namespace mainMon
 {
     class Casino
     {
-        private mainlogo logo = new mainlogo();
-        private Money money = new Money();
-        private string name { get; set; }
+        private MainLogo logo = new MainLogo(); //로고 가져오기
+        private Money money = new Money(); //소지금
+        private string name { get; set; } //닉네임
 
-        public Casino()
+        public Casino() //실제 게임 생성자
         {
             logo.PrintTitle();
             KeyInput(1);
@@ -21,7 +21,7 @@ namespace mainMon
             KeyInput(2);
         }
 
-        public void KeyInput(int page)
+        public void KeyInput(int page) //키를 누르면 실행
         {
             ConsoleKeyInfo startKey;
             bool nextMain = true;

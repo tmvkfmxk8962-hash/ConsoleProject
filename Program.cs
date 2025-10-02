@@ -13,7 +13,6 @@ namespace mainMon
             Console.SetWindowSize(90, 40);
             Casino mainlogo = new Casino();
             
-                
         }
     }
 }
